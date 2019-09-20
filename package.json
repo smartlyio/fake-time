@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "yarn jest test/",
+    "test": "yarn jest",
     "render": "yarn ts-node render.ts",
     "build": "rm -rf ./dist/* && yarn lint && yarn test && yarn render && tsc",
     "lint": "tslint -c tslint.json --project tsconfig.json",
