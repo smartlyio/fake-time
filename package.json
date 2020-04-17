@@ -20,7 +20,7 @@
     "url": "https://github.com/smartlyio/fake-time.git"
   },
   "peerDependencies": {
-    "jest": "^24.5.0"
+    "jest": "^25.3.0"
   },
   "keywords": [
     "jest",
@@ -30,17 +30,17 @@
     "fake"
   ],
   "devDependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/node": "^11.11.3",
-    "jest": "^24.5.0",
+    "@types/jest": "^25.2.0",
+    "@types/node": "^13.11.1",
+    "jest": "^25.3.0",
     "jsverify": "^0.8.4",
-    "prettier": "^1.18.2",
-    "ts-jest": "^24.0.0",
-    "ts-node-dev": "^1.0.0-pre.24",
-    "tslint": "^5.7.0",
+    "prettier": "^2.0.4",
+    "ts-jest": "^25.4.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.5.0",
-    "tslint-plugin-prettier": "^1.3.0",
-    "typescript": "^3.3.3333"
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^3.8.3"
   },
   "jest": {
     "testEnvironment": "node",
