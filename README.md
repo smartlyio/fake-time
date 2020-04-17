@@ -42,7 +42,7 @@ describe('fake-time', () => {
     it('advances time while waiting', async () => {
       const start = Date.now();
       await fakeTime.wait(async () => expect(Date.now() - start).toBeGreaterThan(dayInMs), {
-        untilMs: dayInMs * 2 * 10
+        untilMs: dayInMs * 2 * 10,
       });
     });
   });
