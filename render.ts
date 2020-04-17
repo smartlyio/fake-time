@@ -19,7 +19,7 @@ fs.writeFileSync(
 
 // tslint:disable-next-line:no-floating-promises
 Promise.all(
-  examples.map(example => {
+  examples.map((example) => {
     // tslint:disable-next-line:no-console
     console.log('testing ' + example);
     return util.promisify(child.exec)(example);
