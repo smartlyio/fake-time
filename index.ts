@@ -1,7 +1,7 @@
 function getException(p: () => Promise<unknown>): Promise<any> {
   return p()
-    .then(r => null)
-    .catch(e => e);
+    .then((r) => null)
+    .catch((e) => e);
 }
 
 let mockDateNow: any;
