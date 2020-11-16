@@ -20,7 +20,7 @@
     "url": "https://github.com/smartlyio/fake-time.git"
   },
   "peerDependencies": {
-    "jest": "^25.3.0 || ^26.0.0"
+    "jest": "^26.0.0"
   },
   "keywords": [
     "jest",
