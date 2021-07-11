@@ -30,8 +30,8 @@
     "fake"
   ],
   "devDependencies": {
-    "@types/jest": "26.0.23",
-    "@types/node": "14.17.4",
+    "@types/jest": "26.0.24",
+    "@types/node": "14.17.5",
     "jest": "27.0.6",
     "jsverify": "0.8.4",
     "prettier": "2.3.2",
