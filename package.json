@@ -1,7 +1,7 @@
 {
   "name": "@smartlyio/fake-time",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fake time and timers",
   "private": false,
   "author": "Smartly.io",
