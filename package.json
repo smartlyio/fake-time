@@ -30,7 +30,7 @@
     "fake"
   ],
   "devDependencies": {
-    "@types/jest": "27.0.3",
+    "@types/jest": "27.4.0",
     "@types/node": "16.11.17",
     "jest": "27.4.5",
     "jsverify": "0.8.4",
