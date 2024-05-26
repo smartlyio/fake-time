@@ -2658,10 +2658,10 @@ trampa@^1.0.0:
   resolved "https://registry.yarnpkg.com/trampa/-/trampa-1.0.1.tgz#b866bc192331f64b4f57a8acf4ab71d0e900b692"
   integrity sha512-93WeyHNuRggPEsfCe+yHxCgM2s6H3Q8Wmlt6b6ObJL8qc7eZlRaFjQxwTrB+zbvGtlDRnAkMoYYo3+2uH/fEwA==
 
-ts-jest@29.1.2:
-  version "29.1.2"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.1.2.tgz#7613d8c81c43c8cb312c6904027257e814c40e09"
-  integrity sha512-br6GJoH/WUX4pu7FbZXuWGKGNDuU7b8Uj77g/Sp7puZV6EXzuByl6JrECvm0MzVzSTkSHWTihsXt+5XYER5b+g==
+ts-jest@29.1.3:
+  version "29.1.3"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.1.3.tgz#2bab16ba5ab0f4896684985f9618acc2cf1197e9"
+  integrity sha512-6L9qz3ginTd1NKhOxmkP0qU3FyKjj5CPoY+anszfVn6Pmv/RIKzhiMCsH7Yb7UvJR9I2A64rm4zQl531s2F1iw==
   dependencies:
     bs-logger "0.x"
     fast-json-stable-stringify "2.x"
