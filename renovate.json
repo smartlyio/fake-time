@@ -13,18 +13,6 @@
   ],
   "packageRules": [
     {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "schedule": "before 8am on monday",
-      "groupName": "devDependencies",
-      "automerge": true,
-      "labels": [
-        "dependencies",
-        "no release"
-      ]
-    },
-    {
       "matchUpdateTypes": [
         "pin",
         "pinDigest"
