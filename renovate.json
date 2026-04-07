@@ -13,6 +13,26 @@
   ],
   "packageRules": [
     {
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "schedule": "before 8am on monday",
+      "groupName": "devDependencies",
+      "automerge": true,
+      "labels": [
+        "dependencies",
+        "no release"
+      ]
+    },
+    {
+      "matchUpdateTypes": [
+        "pin",
+        "pinDigest"
+      ],
+      "minimumReleaseAge": null,
+      "automerge": true
+    },
+    {
       "groupName": "Smartly packages",
       "packagePatterns": [
         "^@smartly/"
@@ -35,18 +55,6 @@
         "^@smartlyio/oats"
       ],
       "schedule": "at any time"
-    },
-    {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "schedule": "before 8am on monday",
-      "groupName": "devDependencies",
-      "automerge": true,
-      "labels": [
-        "dependencies",
-        "no release"
-      ]
     }
   ],
   "minimumReleaseAge": "30 days"
