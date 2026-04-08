@@ -1,12 +1,25 @@
 {
-  "extends": ["config:js-lib"],
+  "extends": [
+    "config:js-lib",
+    "config:best-practices"
+  ],
   "vulnerabilityAlerts": {
     "enabled": true
   },
   "timezone": "Europe/Helsinki",
   "prHourlyLimit": 5,
-  "labels": ["patch"],
+  "labels": [
+    "patch"
+  ],
   "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "pin",
+        "pinDigest"
+      ],
+      "minimumReleaseAge": null,
+      "automerge": true
+    },
     {
       "groupName": "Smartly packages",
       "schedule": "at any time",
@@ -29,5 +42,6 @@
       "automerge": true,
       "labels": ["dependencies", "no release"]
     }
-  ]
+  ],
+  "minimumReleaseAge": "30 days"
 }
