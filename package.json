@@ -3,17 +3,22 @@
   "license": "MIT",
   "version": "1.0.3",
   "description": "fake time and timers",
+  "packageManager": "pnpm@11.22.0",
   "private": false,
+  "engines": {
+    "node": ">=22.13",
+    "pnpm": "^11.22.0"
+  },
   "author": "Smartly.io",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "yarn jest",
-    "render": "yarn ts-node render.ts",
-    "build": "rm -rf ./dist/* && yarn lint && yarn test && yarn render && tsc",
+    "test": "pnpm exec jest",
+    "render": "pnpm exec ts-node render.ts",
+    "build": "rm -rf ./dist/* && pnpm run lint && pnpm run test && pnpm run render && pnpm exec tsc",
     "lint": "tslint -c tslint.json --project tsconfig.json",
     "lint:fix": "tslint --fix -c tslint.json --project tsconfig.json",
-    "prepublish": "yarn build"
+    "prepublish": "pnpm run build"
   },
   "repository": {
     "type": "git",
