@@ -10,7 +10,7 @@ Fake time AND timers in jest.  This here thing aims to solve three(!) problems
 A working example
 
 ```js
-// yarn jest examples/working.ts
+// pnpm exec jest examples/working.ts
 import * as fakeTime from '../index';
 
 describe('fake-time', () => {

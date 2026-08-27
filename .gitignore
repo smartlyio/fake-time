@@ -2,6 +2,6 @@ Dockerfile
 docker-compose.yml
 .idea
 node_modules/
-yarn-error.log
+.pnpm-store/
 dist/
 
