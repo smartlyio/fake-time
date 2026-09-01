@@ -3,7 +3,7 @@
   "license": "MIT",
   "version": "1.0.3",
   "description": "fake time and timers",
-  "packageManager": "pnpm@11.22.0",
+  "packageManager": "pnpm@11.25.0",
   "private": false,
   "engines": {
     "node": ">=22.13",
